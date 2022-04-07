@@ -1,0 +1,83 @@
+body{
+    background-image: url("background-image.png");
+    font-family: 'Roboto', sans-serif;;
+}
+
+#relativeParenttoThetext{
+    position: relative;
+    margin-top: 30px;
+}
+
+#absoluteForTheText{
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
+#face{
+    padding-right: 30px;
+    height: 150px;
+    width: 150px;
+}
+
+/* to wrap the long text*/
+.long-text{
+    inline-size: 700px;
+    overflow: hidden;
+}
+
+hr{
+    border: 3px dashed rgb(3, 46, 3);
+    width: 300px;
+}
+
+table, td {
+    border: 1px solid;
+  }
+table{
+    text-align: left;
+}
+td{
+    padding: 0px 230px 0px 300px;
+    white-space: nowrap;
+}
+
+.firstTableFirstColumn{
+    padding: 0px 525px 0px 10px;
+}
+.firstTableSecondColumn{
+    padding: 0px 445px 0px 10px;
+}
+
+#secondTableFirstColumn{
+    padding: 0px 420px 0px 10px;
+}
+#secondTableSecondColumn{
+    padding: 0px 520px 0px 10px;
+}
+
+#buttonParent{
+    text-align: center;
+}
+
+button{
+    background-color: orangered;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 7px 12px;
+    border: none;
+}
+
+form{
+    text-align: center;
+}
+#contactMeForm{
+    margin-top: 15%;/* to center the form in the page*/
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:orangered;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
